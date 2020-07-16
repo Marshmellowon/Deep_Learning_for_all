@@ -53,5 +53,3 @@ for step in range(2001):
 
 coord.request_stop()
 coord.join(threads)
-
-# TODO: logistic classification

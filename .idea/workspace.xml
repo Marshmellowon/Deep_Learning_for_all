@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cbaf2db-1cde-4572-adfe-d5cc00f4c8d0" name="Default Changelist" comment="push">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileReader_data_Regression.py" afterDir="false" />
+    <list default="true" id="0cbaf2db-1cde-4572-adfe-d5cc00f4c8d0" name="Default Changelist" comment="push: add TODO">
+      <change afterPath="$PROJECT_DIR$/20200718/Logistic_Classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20200718/Logistic_Regression_diabetes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20200718/data-03-diabetes.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loading_data_from_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/loading_data_from_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileReader_data_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileReader_data_Regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/20200718" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,30 +63,70 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2020python\Deep_Learning_for_all\20200718" />
+      <recent name="D:\2020python\Deep_Learning_for_all" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2020python\Deep_Learning_for_all\20200718" />
       <recent name="D:\2020python\Deep_Learning_for_all" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fileReader_data_Regression">
-    <configuration name="Multi_Variable_linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Logistic_Regression_diabetes">
+    <configuration name="Linear_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multi_Variable_linear_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linear_Regression.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Logistic_Classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20200718" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20200718/Logistic_Classification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Logistic_Regression_diabetes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20200718" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20200718/Logistic_Regression_diabetes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -108,28 +149,6 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="compute_gradient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compute_gradient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -159,6 +178,9 @@
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -174,35 +196,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multi_variable_linRegression_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi_variable_linRegression_matrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Logistic_Regression_diabetes" />
+        <item itemvalue="Python.Logistic_Classification" />
+        <item itemvalue="Python.Linear_Regression" />
         <item itemvalue="Python.fileReader_data_Regression" />
         <item itemvalue="Python.loading_data_from_file" />
-        <item itemvalue="Python.multi_variable_linRegression_matrix" />
-        <item itemvalue="Python.Multi_Variable_linear_regression" />
-        <item itemvalue="Python.compute_gradient" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +220,10 @@
       <workItem from="1593883621791" duration="15000" />
       <workItem from="1593884573040" duration="3743000" />
       <workItem from="1593919386352" duration="14685000" />
-      <workItem from="1593947470642" duration="2589000" />
+      <workItem from="1593947470642" duration="2618000" />
+      <workItem from="1594102183427" duration="811000" />
+      <workItem from="1594107081794" duration="44000" />
+      <workItem from="1594886591695" duration="6752000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1593943609416</created>
@@ -229,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593943609416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="push: add TODO">
+      <created>1593950075713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593950075713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,20 +255,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push" />
-    <option name="LAST_COMMIT_MESSAGE" value="push" />
+    <MESSAGE value="push: add TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="push: add TODO" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593921902502">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593921902502" />
-    <state x="454" y="305" key="FileChooserDialogImpl" timestamp="1593921126023">
+    <state x="454" y="305" key="FileChooserDialogImpl" timestamp="1594899530295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="454" y="305" key="FileChooserDialogImpl/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593921126023" />
+    <state x="454" y="305" key="FileChooserDialogImpl/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1594899530295" />
+    <state x="363" y="244" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1594107102480" />
     <state x="807" y="437" key="Github.ShareDialog" timestamp="1593920893480">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -267,46 +280,50 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="784" y="243" key="Github.UntrackedFilesDialog/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593920900660" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1593949908698">
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1593950091933">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593949908698" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1593949908698">
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950091933" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1593950091933">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593949908698" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1593949908698">
+    <state width="1877" height="363" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950091933" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1593950091933">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593949908698" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1593949908698">
+    <state width="1877" height="363" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950091933" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1593950091933">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593949908698" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1593949908698">
+    <state width="1877" height="363" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950091933" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1593950091949">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593949908698" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1593949908698">
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950091949" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1593950091949">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.center/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593949908698" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1593949908698">
+    <state width="1877" height="363" key="GridCell.Tab.1.center/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950091949" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1593950091933">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.left/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593949908698" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1593949908698">
+    <state width="1877" height="363" key="GridCell.Tab.1.left/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950091933" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1593950091949">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.right/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593949908698" />
-    <state x="461" y="184" key="SettingsEditor" timestamp="1593921097614">
+    <state width="1877" height="363" key="GridCell.Tab.1.right/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950091949" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1594889995631">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="184" key="SettingsEditor/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593921097614" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1593921091830">
+    <state x="461" y="184" key="SettingsEditor/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1594889995631" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1593950079473">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593921091830" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950079473" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1594889878214">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1594889878214" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Deep_Learning_for_all$Placehold_Minimize.coverage" NAME="Placehold_Minimize Coverage Results" MODIFIED="1593923460891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cbaf2db-1cde-4572-adfe-d5cc00f4c8d0" name="Default Changelist" comment="push: add TODO">
-      <change afterPath="$PROJECT_DIR$/20200718/Logistic_Classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20200718/Logistic_Regression_diabetes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20200718/data-03-diabetes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20200717/Tesla.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20200717/Tesla_logistic_Regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileReader_data_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileReader_data_Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20200718/Logistic_Classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/20200716/Logistic_Classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20200718/Logistic_Regression_diabetes.py" beforeDir="false" afterPath="$PROJECT_DIR$/20200716/Logistic_Regression_diabetes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20200718/data-03-diabetes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/20200716/data-03-diabetes.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/20200718" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/20200717" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,20 +67,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2020python\Deep_Learning_for_all\20200717" />
+      <recent name="D:\2020python\Deep_Learning_for_all\20200718" />
+      <recent name="D:\2020python\Deep_Learning_for_all" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\2020python\Deep_Learning_for_all\20200718" />
       <recent name="D:\2020python\Deep_Learning_for_all" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\2020python\Deep_Learning_for_all\20200718" />
-      <recent name="D:\2020python\Deep_Learning_for_all" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.Logistic_Regression_diabetes">
+  <component name="RunManager" selected="Python.Tesla_logistic_Regression">
     <configuration name="Linear_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -99,6 +104,9 @@
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20200718" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -114,10 +122,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Logistic_Regression_diabetes (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20200716" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20200716/Logistic_Regression_diabetes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Logistic_Regression_diabetes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20200718" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -125,6 +155,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20200718/Logistic_Regression_diabetes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tesla_logistic_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20200717" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20200717/Tesla_logistic_Regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,54 +204,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fileReader_data_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fileReader_data_Regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="loading_data_from_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loading_data_from_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tesla_logistic_Regression" />
+        <item itemvalue="Python.Logistic_Regression_diabetes (1)" />
         <item itemvalue="Python.Logistic_Regression_diabetes" />
         <item itemvalue="Python.Logistic_Classification" />
         <item itemvalue="Python.Linear_Regression" />
-        <item itemvalue="Python.fileReader_data_Regression" />
-        <item itemvalue="Python.loading_data_from_file" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +231,8 @@
       <workItem from="1593947470642" duration="2618000" />
       <workItem from="1594102183427" duration="811000" />
       <workItem from="1594107081794" duration="44000" />
-      <workItem from="1594886591695" duration="6752000" />
+      <workItem from="1594886591695" duration="6897000" />
+      <workItem from="1594914186242" duration="5488000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1593943609416</created>
@@ -239,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593950075713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="push: add TODO">
+      <created>1594900406349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594900406349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,10 +332,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="184" key="SettingsEditor/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1594889995631" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1593950079473">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1594900409148">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1593950079473" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1594900409148" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1594889878214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
